@@ -66,7 +66,7 @@ function draw() {
     textFont(font)
     textSize(175)
     text('Caleb Widogast', 360, 130)
-    if(fade < 0) fadeAmount = 4;
+    if(fade < 0) fadeAmount = 6;
     if(fade > 135) fadeAmount = -7;
     fade += fadeAmount;
     pop()
